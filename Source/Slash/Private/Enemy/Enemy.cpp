@@ -136,7 +136,7 @@ void AEnemy::MoveToTarget(AActor* Target)
 	MoveRequest.SetCanStrafe(true);
 	MoveRequest.SetGoalActor(Target);
 	MoveRequest.SetAcceptanceRadius(AcceptanceRadius);
-	EnemyController->MoveTo(MoveRequest);
+	//EnemyController->MoveTo(MoveRequest);
 }
 
 AActor* AEnemy::PickPatrolTarget()
